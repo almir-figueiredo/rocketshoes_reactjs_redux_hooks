@@ -1,0 +1,32 @@
+Do:
+yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+do:
+yarn eslint --init
+choose
+- To check syntax, find problems, and enforce code style;
+- JavaScript modules (import/export);
+- React;
+- N (if that question apears: Does your project use TypeScript? (y/N));
+- Browser;
+- Use a popular style guide;
+- Airbnb (https://github.com/airbnb/javascript);
+- JavaScript;
+- Y
+
+Delete package-lock.json
+
+create .editorconfig
+
+do: yarn
+
+- Keep only index.js inside of the folder "public";
+- keep only index.js and app.js inside of the folder "src";
+
+Copy from this repository and paste the commands of theses files:
+.eslintcr
+.prettiercr
+.editorconfig
+public/index.js
+src/index.js
+src/app.js
